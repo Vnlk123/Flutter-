@@ -1,0 +1,84 @@
+Experiment-1
+
+Install Flutter and Dart SDK.
+
+Flutter:
+
+Step-1: 
+=========
+Download Flutter SDK:
+
+Download the following installation bundle to get the latest stable release of the Flutter SDK.
+
+Step-2:
+=======
+ Extract the File: Extract the downloaded
+
+zip file & move it to the desired location where you want to install Flutter SDK. Do not install it in a folder or directory that requires elevated privileges, to ensure the program runs properly. For this tutorial it will be sorted in c:\development flutter.
+
+You are now ready to run Flutter commands in the Flutter console.
+
+Step-3:
+=======
+ Update path variable for windows powershell.
+
+If you wish to run flutter commands in the regular windows console, take these steps to add Flutter to the PATH environment variable:
+
+From the start search bar, enter 'env' and Select Edit environment variables for your accourt.
+
+*Under user variables check if there is an entry Called path.
+
+*If the entry exists, append the full path to
+
+
+flutter bin using; as a separator from existing Values.
+
+on the next screen, click New and add the full path to your flutter bin directory. For this guide, it is shown below. click ok on both windows to enable running Flutter commands in windows consoles.
+
+*If the entry doesn't exist, create a new user variable named path with the full path to flutter/binas its value.
+
+Step-4:
+===≈===
+ Confirm Installed tools for Running Flutter In CMD, run the flutter doctor command to confirm the installed tools along with brief descriptions. As visible, several components still need to be installed to complete the installation.
+
+Step-5: 
+=========
+Download and Install Android Studio Download Android Studio:
+
+visit the official Android studio Download page at https://developer.android.com/studio.
+
+Click on the "Download Android Studio" button. Next proceed by downloading Android Studio. During the setup, unless you have unique requirements, Simply click "Next" on all screens to keep the default settings. On the "choose components" Screen, be sure to select the "Android Virtual Device" Android emulator for your app
+
+
+development needs.
+
+Step-6:
+=======
+ Install visual studio (Optional)
+
+The above output also shows that visual Qudio is not installed. Visual Studio is not needed unless you want to use Flutter for windows development of desktop.
+
+Dart SDK:
+-------‐-----
+
+Step-1: 
+===========
+Download Dart SDK. Download Dart SDK from the Dart SDK archive page.
+
+click on DART SDK to download SDK windows 64-bit Architecture, the download will start and a zip file will be downloaded.
+
+Note: To download SDK for any other os select os of your choice.
+
+Step-2:
+=======≈
+ Extract the downloaded zip file. Extract the contents of the downloaded zip file & after extracting the contents of the zip file will be as shown;
+
+Step-3: 
+=======
+Running. Chart.
+
+Now open the bin folder & type "cmd" as given below:
+
+Command Prompt will open with our desired Path of bin folder and now type "dart":
+
+Now we are ready to use the dart through bin folder but setting up path in environment variables will ease our task of step 3 and we can run dart from anywhere in the file system.
